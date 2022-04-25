@@ -101,6 +101,11 @@ header .logo{
     font-size: 3rem;
 }
 
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
 header .navbar ul{
     display: flex;
     align-items: center;
@@ -574,6 +579,8 @@ header .fa-bars{
     header .fa-bars{
         display: block;
     }
+
+    
 
     header .navbar{
         position: fixed;
