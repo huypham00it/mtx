@@ -1168,24 +1168,3 @@ body {
         width: 90%;
     }
 }
-
-.touch {
-    position: absolute;
-    right: -255px;
-    top: -75px;
-    z-index: 9999;
-}
-
-.touch img {
-    width: 50px;
-    height: 50px;
-}
-
-@keyframes blink {
-    50% {
-      opacity: 0.0;
-    }
-  }
-.blink {
-    animation: blink .5s step-start 0s infinite;
-}
